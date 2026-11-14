@@ -1,5 +1,5 @@
 {
-  "name": "dsh-client-token-total",
+  "name": "all-my-tokens",
   "version": "0.1.0",
   "description": "Composer pill showing the summed token usage of every Session on this host",
   "type": "module",

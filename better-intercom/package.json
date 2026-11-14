@@ -1,6 +1,6 @@
 {
-  "name": "@deepseek-ai/dsh-experimental-session-intercom",
-  "description": "Model tools for sending explicit messages between DSH sessions without reading their transcripts",
+    "name": "better-intercom",
+    "description": "Explicit cross-session messages for DSH: signed send, de-identified relay, and dispatch rules",
   "version": "0.2.2-rc.1",
   "publishConfig": {
     "access": "public"

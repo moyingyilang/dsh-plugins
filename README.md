@@ -4,10 +4,10 @@
 
 | 插件 | 半边 | 用途 |
 | --- | --- | --- |
-| `session-intercom` | host | 会话间显式消息：带署名的 `intercom_send`、去署名的 `intercom_relay`、带 `self` 的 `intercom_list` |
-| `token-total` | client | 输入框底部多一个 pill，显示本机所有会话累计消耗的 tokens |
+| `better-intercom` | host | 会话间显式消息：带署名的 `intercom_send`、去署名的 `intercom_relay`、带 `self` 的 `intercom_list` |
+| `All_My_Tokens` | client | 输入框底部多一个 pill，显示本机所有会话累计消耗的 tokens |
 
-## session-intercom
+## better-intercom
 
 在 DSH 里启用后提供三个模型工具：
 
@@ -23,11 +23,11 @@
 安装：
 
 ```bash
-npm install <本目录>/session-intercom-0.2.2-rc.1.tgz
+npm install <本目录>/better-intercom-0.2.2-rc.1.tgz
 # 然后在 DSH 配置里启用插件
 ```
 
-## token-total
+## All_My_Tokens
 
 客户端插件，向 `conversation.composer.dock` 注册一个 `order: 2` 的条目，
 读取每个会话摘要里 durable 的 `tokenUsage` 投影并求和——**客户端本地算术，不额外请求 Host**。
