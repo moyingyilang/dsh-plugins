@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session intercom",
+    "description": "Send explicit messages between sessions without reading their transcripts."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "dsh-client-token-total",
+  "version": "0.1.0",
+  "description": "Composer pill showing the summed token usage of every Session on this host",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./client": { "default": "./lib/client.js" }
+  },
+  "files": ["lib/index.js", "lib/client.js", "src/**/*"],
+  "license": "MIT",
+  "scripts": {
+    "bundle": "tsdown src/client/index.ts --format esm --dts false --external react --external @deepseek-ai/*"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.1.0",
+    "@deepseek-ai/dsh-client-locale": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-store": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-ui-session": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-ui-slots": "^0.2.2-rc.1",
+    "react": "^18.2.0"
+  },
+  "dsh": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-session"
+      ],
+      "platform": "web"
+    }
+  }
+}

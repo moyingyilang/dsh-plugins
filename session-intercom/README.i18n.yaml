@@ -1,0 +1,103 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/experimental/session-intercom/README.md
+/:
+  en: 1c61488c94f19c8b
+  zh: d9cd83513bfbc099
+/deepseek-ai-dsh-experimental-session-intercom:
+  en: 567f350b47722acc
+  zh: d75e35601b3a4701
+/deepseek-ai-dsh-experimental-session-intercom/summary:
+  en: ca38cf8ae557d10f
+  zh: 89f5cea0a17e7668
+/deepseek-ai-dsh-experimental-session-intercom/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 09388d293f9be9cb
+/deepseek-ai-dsh-experimental-session-intercom/use-this-package:
+  en: 8004b4b153435775
+  zh: 905473d98dea7609
+/deepseek-ai-dsh-experimental-session-intercom/use-this-package/when-to-choose-it:
+  en: 4a07ef5da03e86f1
+  zh: 926e36bc5f410493
+/deepseek-ai-dsh-experimental-session-intercom/use-this-package/smallest-working-setup:
+  en: b1d9cb4f6ed10b9f
+  zh: d69b8bd24cea4264
+/deepseek-ai-dsh-experimental-session-intercom/use-this-package/configuration:
+  en: 97ac0a593dc42096
+  zh: 93870322c6c66d3a
+/deepseek-ai-dsh-experimental-session-intercom/use-this-package/what-the-model-can-do:
+  en: b256993a2a16f177
+  zh: 69f3b884b675aa42
+/deepseek-ai-dsh-experimental-session-intercom/use-this-package/permissions:
+  en: 5dca21f218fbf112
+  zh: 4208062fe939b6db
+/deepseek-ai-dsh-experimental-session-intercom/use-this-package/failures-and-recovery:
+  en: 991d669cdb335da3
+  zh: 38db481e30915fef
+/deepseek-ai-dsh-experimental-session-intercom/understand-the-implementation:
+  en: 42b15ac6321706aa
+  zh: 7ae097f3abcc5d9c
+/deepseek-ai-dsh-experimental-session-intercom/understand-the-implementation/design-philosophy:
+  en: ec280bfd86f58598
+  zh: 6f20aaa09ed0ce79
+/deepseek-ai-dsh-experimental-session-intercom/understand-the-implementation/source-map:
+  en: b750741436fd2356
+  zh: 8b2b1763e6d3d544
+/deepseek-ai-dsh-experimental-session-intercom/understand-the-implementation/discovery-and-activation:
+  en: 58c736f420a2cd7e
+  zh: b9c7e176b691b4c5
+/deepseek-ai-dsh-experimental-session-intercom/understand-the-implementation/delivery:
+  en: 2e507e17c888cca3
+  zh: 2e1e66594c0a9284
+/deepseek-ai-dsh-experimental-session-intercom/further-exploration:
+  en: cf335dc1160dc19d
+  zh: 9a9505cf27cb04e9
+/deepseek-ai-dsh-experimental-session-intercom/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/intercom-guidance:
+  en: 3f8127222c916f59
+  zh: e23df759f39f6df7
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/intercom-guidance/what-the-model-sees:
+  en: 9ce33b43898b761a
+  zh: ac269cd91c76eebe
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/intercom-guidance/what-the-model-sees/intercom-guidance-text:
+  en: d23a5a2bd9d6bb8e
+  zh: 61cbcd39b0170e0b
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/intercom-guidance/token-effect:
+  en: 135b2d2ee0dddb86
+  zh: 6aa8009438b2a9e6
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/intercom-guidance/kv-cache-effect:
+  en: 3bca5cdc9c4f1ad8
+  zh: b7bc71d8dc65c048
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/intercom-tools:
+  en: 4d58400a0a4ed09a
+  zh: c9cb5f4e55a7a623
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/intercom-tools/what-the-model-sees:
+  en: 869ad04ee6e9a9a6
+  zh: 2b7abe65750fcfda
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/intercom-tools/token-effect:
+  en: 4f2fa170af857d58
+  zh: 78381c022791bb56
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/intercom-tools/kv-cache-effect:
+  en: c8cbbef533bdb90f
+  zh: d9902ab800bcb142
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/tool-results:
+  en: beaabb79f229692a
+  zh: 8573891441963be4
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/tool-results/what-the-model-sees:
+  en: 37cc3d525b26a942
+  zh: b5b37648b76e5a91
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/tool-results/token-effect:
+  en: d0a6d9318707be1b
+  zh: 0bb147dc7fd16876
+/deepseek-ai-dsh-experimental-session-intercom/model-experience/tool-results/kv-cache-effect:
+  en: ecb7ace3b570c573
+  zh: 8e5401ea9d037f4d
+/deepseek-ai-dsh-experimental-session-intercom/known-limitations-and-deferred-work:
+  en: 485c62be83e2e296
+  zh: a9f3f6492de23a5a
+/deepseek-ai-dsh-experimental-session-intercom/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: e88aeb617ffb74ea

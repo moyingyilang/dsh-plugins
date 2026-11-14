@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Intercommunication des sessions",
+    "description": "Envoyer des messages explicites entre sessions sans lire leurs transcriptions."
+  }
+}
